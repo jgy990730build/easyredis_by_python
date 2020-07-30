@@ -1,0 +1,80 @@
+2020-05-31 10:41:58,331 INFO    : listen  to localhost:4396
+2020-05-31 10:42:20,611 INFO    : accepted conn from ('127.0.0.1', 2305)
+2020-05-31 10:42:27,870 INFO    : execute SET kl 'cd'
+2020-05-31 10:42:33,271 INFO    : execute GET kl
+2020-05-31 12:02:56,150 INFO    : listen  to localhost:4396
+2020-05-31 12:03:01,010 INFO    : accepted conn from ('127.0.0.1', 3795)
+2020-05-31 12:03:08,907 INFO    : execute SET kj 'vc'
+2020-05-31 12:45:30,314 INFO    : listen  to localhost:4396
+2020-05-31 12:45:35,259 INFO    : accepted conn from ('127.0.0.1', 4219)
+2020-05-31 12:45:47,803 INFO    : execute SET test1 'test1'
+2020-05-31 12:45:52,084 INFO    : execute GET test1
+2020-05-31 12:46:31,583 INFO    : execute EXISTS test1
+2020-05-31 12:47:08,319 INFO    : execute EXISTS jj
+2020-05-31 12:47:20,025 INFO    : execute INCR test1
+2020-05-31 12:47:20,025 ERROR   : execute INCR test1
+2020-05-31 12:47:32,652 INFO    : execute SET test2 '1'
+2020-05-31 12:47:38,662 INFO    : execute INCR test2
+2020-05-31 12:47:38,663 ERROR   : execute INCR test2
+2020-05-31 12:48:20,225 INFO    : execute GET test2
+2020-05-31 12:48:27,944 INFO    : execute SET test2 1
+2020-05-31 12:48:42,385 INFO    : execute INCR test2
+2020-05-31 12:48:46,495 INFO    : execute INCR test2
+2020-05-31 12:49:06,977 INFO    : execute LPUSH list1 cc
+2020-05-31 12:49:06,977 ERROR   : execute LPUSH list1 cc
+2020-05-31 12:49:10,522 INFO    : execute LPUSH list1 'c'
+2020-05-31 12:49:10,522 ERROR   : execute LPUSH list1 'c'
+2020-05-31 12:49:41,983 INFO    : execute LPUSH list2 cc
+2020-05-31 12:49:41,983 ERROR   : execute LPUSH list2 cc
+2020-05-31 12:50:13,985 INFO    : execute LPUSH list2 cc cs
+2020-05-31 12:50:13,985 ERROR   : execute LPUSH list2 cc cs
+2020-05-31 12:50:18,125 INFO    : execute LPUSH list2
+2020-05-31 12:50:18,125 ERROR   : execute LPUSH list2
+2020-05-31 12:50:34,465 INFO    : execute LPUSH ll
+2020-05-31 12:50:34,465 ERROR   : execute LPUSH ll
+2020-05-31 12:50:37,395 INFO    : execute LPUSH lk
+2020-05-31 12:50:37,396 ERROR   : execute LPUSH lk
+2020-05-31 12:51:28,754 INFO    : listen  to localhost:4396
+2020-05-31 12:51:33,839 INFO    : accepted conn from ('127.0.0.1', 4263)
+2020-05-31 12:51:50,624 INFO    : execute LPUSH list1 'cd'
+2020-05-31 12:52:05,340 INFO    : execute LPUSH list1 'vf'
+2020-05-31 12:52:19,799 INFO    : execute LPUSH list2 'kj'
+2020-05-31 12:52:19,799 ERROR   : execute LPUSH list2 'kj'
+2020-05-31 13:13:29,637 INFO    : listen  to localhost:4396
+2020-05-31 13:14:05,982 INFO    : listen  to localhost:4396
+2020-05-31 13:14:10,655 INFO    : accepted conn from ('127.0.0.1', 4611)
+2020-05-31 13:15:04,652 INFO    : execute SET test1 1
+2020-05-31 13:15:15,967 INFO    : execute GET test1
+2020-05-31 13:15:28,946 ERROR   : execute EXIST test1
+2020-05-31 13:16:11,489 ERROR   : execute EXIST test
+2020-05-31 13:16:29,328 INFO    : execute EXISTS test
+2020-05-31 13:16:31,581 INFO    : execute EXISTS test1
+2020-05-31 13:16:43,397 INFO    : execute INCR test1
+2020-05-31 13:16:45,781 INFO    : execute INCR test1
+2020-05-31 13:18:01,258 INFO    : execute LPUSH list 'ff'
+2020-05-31 13:18:09,074 INFO    : execute LPUSH list 'aa'
+2020-05-31 13:18:12,471 INFO    : execute LPUSH list 'bb'
+2020-05-31 13:18:17,235 INFO    : execute LPUSH list2 'cc'
+2020-05-31 13:18:34,887 ERROR   : execute RPOP list
+2020-05-31 14:19:44,596 INFO    : listen  to localhost:4396
+2020-05-31 14:19:51,806 INFO    : accepted conn from ('127.0.0.1', 5174)
+2020-05-31 14:28:15,653 INFO    : execute RPOP list2
+2020-05-31 14:28:35,903 INFO    : execute LRANGE list2 1 10
+2020-05-31 14:28:43,656 INFO    : execute LRANGE list 1 10
+2020-05-31 14:30:15,128 INFO    : execute LRANGE list -3 10
+2020-05-31 14:30:22,749 INFO    : execute LRANGE list 0 10
+2020-05-31 14:31:17,949 INFO    : execute LPUSH list 'vfs'
+2020-05-31 14:31:21,368 INFO    : execute LRANGE list 0 10
+2020-05-31 14:32:12,626 INFO    : execute RPOP list
+2020-05-31 14:32:16,397 INFO    : execute LRANGE list 0 10
+2020-05-31 14:35:45,234 INFO    : execute LRANGE list -100 100
+2020-05-31 14:35:51,035 INFO    : execute LRANGE list 0 10
+2020-05-31 14:36:00,319 INFO    : execute LRANGE list 0 0
+2020-05-31 14:56:00,598 INFO    : listen  to localhost:4396
+2020-05-31 14:56:06,228 INFO    : accepted conn from ('127.0.0.1', 5552)
+2020-05-31 14:56:25,966 INFO    : execute SADD myset 'aa'
+2020-05-31 14:56:29,930 INFO    : execute SADD myset 'bb'
+2020-05-31 14:56:44,072 INFO    : execute SMEMBERS myset
+2020-05-31 14:57:00,135 ERROR   : execute HSET myhash 'aa'
+2020-05-31 14:57:29,552 INFO    : execute HSET myhash field1 "Hello"
+2020-05-31 14:57:41,888 INFO    : execute HGET myhash field1
