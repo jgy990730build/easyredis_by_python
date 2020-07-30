@@ -1,6 +1,10 @@
 # easyredis_by_python
 简单使用python实现redis
 
+
+#执行
+首先执行easyredis_server.py，后执行easyredis_client.py.请注意端口是否被占用，默认为8080.
+
 # 设计思路
 1	使用python的socket模块写一个服务端和一个客户端的tcp通信程序，可以在服务端收到客户端发送的信息，并可以对其进行分割<br>
 2	对于客户端：把发送前的信息进行自定义格式化，表明信息的长度（有利于区分命令），表明输入的值，对于服务端：把信息获取并放入字典当中，方便以后取出。然后引入selectors实现高效的 I/O multiplexing ,  常用于非阻塞的 socket  的编程中。<br>
