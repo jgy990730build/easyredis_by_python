@@ -17,12 +17,12 @@ Python，添加模块：socket，selectors，Lock，Pool，os，pickle
 
 #使用TCP通信协议：把字符串进行重组，结构如下：
  
-py-redis > set kj 'vc'
-*3
-$3
-set
-$2
-kj
-$4
-'vc'
+py-redis > set kj 'vc'<br>
+*3<br>
+$3<br>
+set<br>
+$2<br>
+kj<br>
+$4<br>
+'vc'<br>
 
